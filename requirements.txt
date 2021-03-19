@@ -1,0 +1,10 @@
+Flask==1.1.2
+marshmallow==3.10.0
+apispec[yaml]==4.3.0
+apispec-webframeworks==0.5.2
+papermill==2.3.3
+pandas==1.2.3
+matplotlib==3.3.4
+ipython==7.21.0
+ipykernel==5.5.0
+flask-swagger-ui==3.36.0

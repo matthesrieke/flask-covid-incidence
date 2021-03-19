@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  covid:
+    build: .
+    image: matthesrieke/jupyter-test-pandas:1.0.3
+    environment:
+      - SERVICE_URL=http://localhost:8080
+    volumes:
+      - ./out:/data/outputs/
+      - ./:/app
+    ports:
+      - 8080:80
