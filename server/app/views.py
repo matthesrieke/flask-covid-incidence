@@ -19,6 +19,11 @@ def incidence():
         name: region
         schema:
           type: string
+        examples:
+          kreis:
+            summary: |
+                A "Kreis", e.g. "Coesfeld"
+            value: Coesfeld
       responses:
         200:
           description: the graph as JPEG
