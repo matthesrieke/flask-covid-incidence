@@ -6,7 +6,6 @@ services:
     environment:
       - SERVICE_URL=http://localhost:8080
     volumes:
-      - ./out:/data/outputs/
-      - ./:/app
+      - ./server:/app
     ports:
       - 8080:80
